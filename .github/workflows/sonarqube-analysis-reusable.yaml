@@ -28,7 +28,7 @@ jobs:
           SONAR_HOST_URL: "https://sonarcloud.io"
         run: |
           mvn sonar:sonar \
-            -Dsonar.projectKey=sonardemo \
-            -Dsonar.organization=vcjain \
+            -Dsonar.projectKey=sibasankar12 \
+            -Dsonar.organization=Siba Sankar Sahu \
             -Dsonar.host.url=$SONAR_HOST_URL \
             -Dsonar.login=$SONAR_TOKEN
